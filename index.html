@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ | Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ナビゲーション -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#projects">プロジェクト</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-greeting">こんにちは、</div>
+                <h1 class="hero-title">
+                    <span class="hero-name">ShunIwaoka</span>
+                    <span class="hero-title-suffix">です</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="hero-role">Web Developer</span>
+                    <span class="hero-divider">/</span>
+                    <span class="hero-role">Software Engineer</span>
+                </p>
+                <p class="hero-description">
+                    コードとデザインを通じて、<br>
+                    価値のあるソリューションを創造します。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">プロジェクトを見る</a>
+                    <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://x.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 自己紹介セクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">自己紹介</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>こんにちは！私はWeb開発とデザインに情熱を注ぐ開発者です。ユーザー中心のアプローチで、美しく機能的なWebアプリケーションを構築しています。</p>
+                    <p>最新のテクノロジーを学び続け、常に改善と成長を心がけています。チームワークを大切にし、プロジェクトの成功に向けて協力して取り組みます。</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>写真</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スキルセクション -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">スキル</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h3>フロントエンド</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>バックエンド</h3>
+                    <p>Node.js, Python, PHP, Database</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <h3>デザイン</h3>
+                    <p>UI/UX Design, Figma, Adobe XD</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🚀</div>
+                    <h3>ツール</h3>
+                    <p>Git, Docker, AWS, CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロジェクトセクション -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">プロジェクト</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">プロジェクト画像</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>プロジェクト1</h3>
+                        <p>このプロジェクトの説明をここに記載します。使用した技術や成果について説明しましょう。</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">詳しく見る →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">プロジェクト画像</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>プロジェクト2</h3>
+                        <p>このプロジェクトの説明をここに記載します。使用した技術や成果について説明しましょう。</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <a href="#" class="project-link">詳しく見る →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">プロジェクト画像</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>プロジェクト3</h3>
+                        <p>このプロジェクトの説明をここに記載します。使用した技術や成果について説明しましょう。</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="#" class="project-link">詳しく見る →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">お問い合わせ</h2>
+            <div class="contact-content">
+                <p class="contact-description">お仕事のご依頼やご質問がございましたら、お気軽にお問い合わせください。</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>メール</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/yourusername</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
